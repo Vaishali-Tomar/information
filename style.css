@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 300px;
+   
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    background-color: aqua;
+  
+    font-weight: bold;
+
+    
+}
+input{
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    min-width: 95%;
+    background-color: aqua;
+
+}
+.main{
+    overflow-y: scroll;
+    min-height: 400px;
+    
+}
+
+/* CSS for profile pictures */
+li {
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    /*flex-direction: column;*/
+  }
+  
+  img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image round */
+    margin-right: 10px; /* Add some spacing between image and text */
+  }
+  
